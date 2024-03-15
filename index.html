@@ -7,22 +7,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TatarStar</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
     <div class="header__bg">
         <header class="mx_w">
-            <div class="logo__nav">
-                <a href="index.html"> <img src="assets/img/logo/TatarStar.png" alt=""></a>
-                <nav>
-                    <a href="index.html">О нас</a>
-                    <a href="katalog.html">Каталог</a>
-                    <a href="#new">Новинки</a>
-                    <a href="#cnt">Контакты</a>
-                </nav>
+            <div class="box1">
+                <div class="menu"><i class="fa-solid fa-bars" style="color: #333333;"></i></div>
+                <div class="logo__nav">
+                    <a href="index.html"> <img src="assets/img/logo/TatarStar.png" alt=""></a>
+                    <nav>
+                        <a href="index.html">О нас</a>
+                        <a href="katalog.html">Каталог</a>
+                        <a href="#new">Новинки</a>
+                        <a href="#cnt">Контакты</a>
+                    </nav>
+                </div>
             </div>
 
             <div class="form__btn">
+                <img class="poisk_adap" src="assets/img/icon/carbon_search.png" alt="">
                 <form action="#">
 
                     <img src="assets/img/icon/carbon_search.png" alt="">
@@ -61,12 +68,47 @@
     <div class="category__bg">
         <img src="assets/img/fon/right.png" alt="" class="fon__right">
         <img src="assets/img/fon/left.png" alt="" class="fon__left">
+        <div class="category__adaptiv mx_w">
+            <div class="box2__category">
+                <div class="imgBox men">
+                    <a href="katalog.html" target="_blank" rel="noopener noreferrer"><img
+                            src="assets/img/category/two.png" alt="">
+                        <div class="for">Для него</div>
+                    </a>
+                </div>
+                <div class="imgBox woman">
+                    <a href="katalog.html" target="_blank" rel="noopener noreferrer"><img
+                            src="assets/img/category/three.png" alt="">
+                        <div class="for">Для неё</div>
+                    </a>
+                </div>
+            </div>
+            <div class="box1__category">
+                <div class="imgBox">
+                    <a href="katalog.html" target="_blank" rel="noopener noreferrer"><img
+                            src="assets/img/category/one.png" alt="">
+                        <div class="for">Новинки</div>
+                    </a>
+                </div>
+
+
+
+                <div class="txtBox">
+                    <a href="katalog.html" target="_blank" rel="noopener noreferrer" class="btn">В каталог</a>
+                    <p>У нас вы сможете найти аутентичную одежду для любого события!</p>
+                    <h2>Стиль, который вы цените!</h2>
+                </div>
+
+            </div>
+        </div>
+
         <div class="category mx_w">
             <div class="box1__category imgBox">
                 <a href="katalog.html" target="_blank" rel="noopener noreferrer"><img src="assets/img/category/one.png"
                         alt="">
                     <div class="for">Новинки</div>
                 </a>
+
             </div>
 
             <div class="box2__category">
@@ -139,6 +181,11 @@
                 </div>
 
                 <a href="#!"><img src="assets/img/icon/next.png" alt="" class="arrow next"></a>
+
+            </div>
+            <div class="arrow__adaptiv">
+                <a href="#"><img class="arrow" src="assets/img/icon/last.png" alt=""></a>
+                <a href="#"><img class="arrow" src="assets/img/icon/next.png" alt=""></a>
             </div>
         </div>
     </div>
@@ -168,7 +215,7 @@
 
             <div class="contacts__foot">
                 <h4>Контакты</h4>
-                <h4><a href="tel:+79128722131">8 (912) 872-21-31</a></h4>
+                <h4 class="tel"><a href="tel:+79128722131">8 (912) 872-21-31</a></h4>
                 <div class="cnt">
                     <p>г. Казань, ул. Галеева, д.3</p>
                     <a href="mailto:tatarstar.info@mail.com">tatarstar.info@mail.com</a>
